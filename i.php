@@ -1,6 +1,6 @@
 <?php
 /*setcookie('login', 'Vasya123', time() + 864000);*/
-
+// добавил для примера при использовании Git
 if (isset($_COOKIE['counter'])){
     $counter = ++$_COOKIE['counter'];
 }
